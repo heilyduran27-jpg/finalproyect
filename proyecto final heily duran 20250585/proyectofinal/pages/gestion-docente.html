@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ITLA — Gestión Docente</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-body-secondary d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #15336f;">
+      <div class="container">
+        <a class="navbar-brand py-1" href="../index.html">
+          <img src="../assets/logo.webp" alt="ITLA" height="38" class="d-block w-auto" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Abrir menú"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sobre ITLA
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="oferta-academica.html">Oferta Académica</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Docentes
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" aria-current="page" href="gestion-docente.html">Gestión Docente</a></li>
+                <li><a class="dropdown-item" href="cafe-digital.html">Café Digital</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rectoria-y-calidad-de-gestion.html">Rectoría</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="calidad-en-la-gestion.html">Calidad en la gestión</a></li>
+            <li class="nav-item"><a class="nav-link" href="transparencia.html">Transparencia</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class=" text-white py-4" style="background-color: #15336f;">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+          <div>
+            <p class="small text-white-50 mb-1">Gestión Docente</p>
+            <h1 class="h2 mb-0">Departamento de Gestión Docente</h1>
+            <p class="mb-0 text-white-50">Servicios para el personal docente</p>
+          </div>
+          <nav aria-label="Miga de pan">
+            <ol class="breadcrumb mb-0 small">
+              <li class="breadcrumb-item"><a class="link-light text-decoration-none" href="../index.html">Inicio</a></li>
+              <li class="breadcrumb-item active text-white" aria-current="page">Gestión Docente</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5 flex-grow-1">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="card shadow-sm border">
+              <div class="card-body p-4 p-lg-5">
+                <p class="lead mb-3">
+                  El Departamento de Gestión Docente es responsable de planificar, dirigir, supervisar y controlar todos
+                  los procesos relacionados con la vida laboral del personal docente, desde su ingreso a la institución.
+                </p>
+                <p class="text-muted mb-4">
+                  Todas las acciones se realizan conforme a las normas, políticas, procedimientos, leyes y regulaciones de
+                  la Administración Pública, con el objetivo de garantizar el cumplimiento de los fines institucionales.
+                </p>
+
+                <div class="d-flex align-items-end gap-3 mb-3 border-bottom border-primary border-3 pb-2">
+                  <h2 class="h5 mb-0 text-primary">Servicios</h2>
+                </div>
+
+                <div class="accordion" id="serviciosGestionDocente">
+                  <div class="accordion-item">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#serv1">
+                        Certificaciones laborales
+                      </button>
+                    </h3>
+                    <div id="serv1" class="accordion-collapse collapse show" data-bs-parent="#serviciosGestionDocente">
+                      <div class="accordion-body">
+                        <ul class="mb-0">
+                          <li>Recepción de solicitudes: lunes a miércoles</li>
+                          <li>Entrega: viernes de la misma semana</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serv2">
+                        Cartas de retención de impuestos
+                      </button>
+                    </h3>
+                    <div id="serv2" class="accordion-collapse collapse" data-bs-parent="#serviciosGestionDocente">
+                      <div class="accordion-body">
+                        <ul class="mb-0">
+                          <li>Recepción de solicitudes: lunes a miércoles</li>
+                          <li>Entrega: viernes de la misma semana</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h3 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serv3">
+                        Orientación sobre descuentos de nómina
+                      </button>
+                    </h3>
+                    <div id="serv3" class="accordion-collapse collapse" data-bs-parent="#serviciosGestionDocente">
+                      <div class="accordion-body">
+                        <ul class="mb-0">
+                          <li>Aportes a la Seguridad Social</li>
+                          <li>Descuentos por ley</li>
+                          <li>Retenciones del Impuesto Sobre la Renta (ISR)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow-sm border mb-4">
+              <div class="card-body">
+                <div class="input-group">
+                  <span class="input-group-text">🔎</span>
+                  <input class="form-control" type="search" placeholder="Buscar en el sitio" aria-label="Buscar en el sitio" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card border shadow-sm mb-4">
+              <div class="card-body">
+                <h2 class="h6 text-primary mb-3">Contacto</h2>
+                <ul class="list-unstyled small mb-0">
+                  <li class="mb-2">
+                    <a class="link-primary text-decoration-none" href="mailto:gestiondocente@itla.edu.do">gestiondocente@itla.edu.do</a>
+                  </li>
+                  <li class="mb-2">809-738-4852 <span class="text-muted">339, 340 y 392</span></li>
+                  <li>
+                    <a class="link-primary text-decoration-none" href="https://wa.me/18097049541">https://wa.me/18097049541</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card border shadow-sm mb-4">
+              <div class="card-body">
+                <h2 class="h6 text-primary mb-3">Páginas relacionadas</h2>
+                <a class="btn btn-outline-primary btn-sm w-100" href="#">login</a>
+              </div>
+            </div>
+
+            <div class="card border shadow-sm">
+              <div class="card-body">
+                <h2 class="h6 text-primary mb-3">Solicita más información</h2>
+                <form>
+                  <div class="mb-3">
+                    <label for="infoNombre" class="form-label">Nombre *</label>
+                    <input id="infoNombre" class="form-control" type="text" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="infoCorreo" class="form-label">Correo electrónico *</label>
+                    <input id="infoCorreo" class="form-control" type="email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="infoComentarios" class="form-label">Comentarios</label>
+                    <textarea id="infoComentarios" class="form-control" rows="3" placeholder="Escribe tu consulta o comentario..."></textarea>
+                  </div>
+                  <button type="button" class="btn btn-primary w-100">Enviar Solicitud</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class=" text-white-50 py-5 mt-auto border-top border-secondary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <h4 class="text-white text-uppercase small fw-bold mb-3">Conócenos</h4>
+            <p class="small mb-0">
+              El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que
+              ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un
+              enfoque práctico y actualizado.
+            </p>
+          </div>
+          <div class="col">
+            <h4 class="text-white text-uppercase small fw-bold mb-3">Contáctanos</h4>
+            <ul class="list-unstyled small mb-0">
+              <li>Tel: (809)-738-4852</li>
+              <li>Tel: (809)-793-2557</li>
+              <li><a class="link-light" href="mailto:info@itla.edu.do">info@itla.edu.do</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4 class="text-white text-uppercase small fw-bold mb-3">Búscanos</h4>
+            <p class="small mb-2">Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606, R.D.</p>
+            <a class="link-light small" href="#" aria-label="Abrir ubicación en Google Maps">Ubicación en Google Maps</a>
+          </div>
+          <div class="col">
+            <h4 class="text-white text-uppercase small fw-bold mb-3">Infórmate</h4>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-1"><a class="link-light" href="#">Términos de Uso</a></li>
+              <li class="mb-1"><a class="link-light" href="#">Política de Privacidad</a></li>
+              <li><a class="link-light" href="#">Preguntas Frecuentes</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary my-4" />
+        <p class="small mb-0 text-center">© <span id="year"></span> ITLA. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
